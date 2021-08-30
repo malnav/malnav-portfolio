@@ -27,9 +27,6 @@ p, blockquote{
     font-family: 'Roboto Mono', monospace;
 }
 
-h1{
-    
-}
 a{
     font-size: 14px;
 }
@@ -41,19 +38,9 @@ blockquote{
 li {
     list-style-type: none;
 }
+
 #header{
     text-align: center;
-}
-#main-browser{
-    margin: auto;
-    max-width: 1200px;
-    background-color: var(--second-color);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* border: var(--border); */
-    border-radius: 0px 0px 5px 5px;
-    box-shadow: -1px 1px 5px -1px rgb(0 0 0 / 75%);
-    display: grid;
 }
 
 #nav-bar, #s3, #s4, .seperate-box{
@@ -67,6 +54,18 @@ li {
     margin-right:-0.5px;
 
 }
+
+/* main-container -  */
+
+#main-container{
+    max-width: 1180px;
+    margin: auto;
+    width: 80vw;
+    box-shadow: -1px 1px 5px -1px rgb(0 0 0 / 75%);
+    border-radius: 5px;
+}
+
+
 
 
 /* Navigation bar */
@@ -82,11 +81,9 @@ li {
     overflow: hidden;
     /* border: var(--border); */
     border-bottom: hidden;
-    border-radius: 5px 5px 0px 0px;
-    max-width: 1180px;
-    margin: auto;
-    box-shadow: -1px 1px 5px -1px rgb(0 0 0 / 75%);
+    
 }
+
 
 #browser-dots{
     display: flex;
@@ -113,6 +110,13 @@ li {
     background-color: #41BE4D;
 }
 
+/* main browser */
+#main-browser{
+    background-color: var(--second-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
 /* section 1 - left */
 
 #s1-left{
@@ -120,7 +124,7 @@ li {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 50px;
+    margin: 50px;
 }
 #s1-left img{
     width:200px;
