@@ -125,7 +125,8 @@ li {
 #s1-left img{
     width:200px;
     height:200px;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: -1px 1px 5px -1px rgb(0 0 0 / 75%);
+    
 }
 
 #theme{
